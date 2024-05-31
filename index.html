@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECH MARK</title>
+    <link rel="ICON" href="./ASSETS/TM LOGO.jfif">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: blue;
+        }
+        .nav {
+
+            background-color: red;
+            color: white;
+            font-size: large;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+        }
+
+        a {
+
+            text-decoration: none;
+            padding: 15px;
+            color: wheat;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+
+
+        }
+        
+
+        .in {
+            display: grid;
+            place-items: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+        }
+
+        .reg {
+            width: 390px;
+            height: 390px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: black;
+            background: white;
+            padding: 20px;
+            border: 0.5px solid white;
+            border: 2PX solid black;
+            border-radius: 8px;
+            
+
+        }
+        .reg input {
+            background-color:white;
+            color: rgb(16, 17, 19);
+            width: 290px;
+            height: 15px;
+            border-top: none;
+            border-left: none ;
+            border-right: none;
+            border-bottom: 3px soild black ;
+            padding: 10px;
+            margin: 10px;
+
+        } 
+
+        
+        button {
+            margin: 15px;
+            border: 1px solid darkblue;
+            background-color: darkblue;
+            color: white;
+            box-shadow: 2px 2px 2px red 2px 2px 2px red;
+            width: 250px;
+            height: 30px;
+            border-radius: 10px;
+    
+        }
+
+        button:hover {
+            cursor: pointer;
+        }
+
+        button:active{
+            cursor: wait;
+             
+        }
+        .anchor{
+            color: blue;
+            text-decoration: none;
+        }
+       .bar>a:hover{
+            border: 0.5px soild blue;
+            background-color: blue;
+            border-radius: 10px;
+            color: red;
+            
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <H1>Tech Mark</H1>
+        <div class="bar">
+            <a href="./home.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./service.html">services</a>
+            <a href="./contact.html">contact</a>
+        </div>
+    </div>
+    <div class="in">
+        <div class="reg">
+            <h2 style="text-align: center;">Registration </h2>
+            <form>
+                <input type="text" placeholder="🙍‍♂️ Enter your Name" required>
+                <input type="email" placeholder="📧 Enter your Email"  required>
+                <input type="tel" placeholder="📱 Enter your Phone Number"  required>
+                <input type="password" placeholder="🔒 Create a password"  required>
+                <input type="password" placeholder="🔒 conform a password"  required> <br>
+                <button>Register now</button>
+                <p>already have an account <a href="./sign in page.html" class="anchor"> Sign in</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
